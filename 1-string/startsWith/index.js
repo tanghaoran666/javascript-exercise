@@ -3,7 +3,7 @@ export default function collectCarNumberCount(collection) {
   let result = 0;
   collection.forEach(element => {
     if (element.indexOf('粤') !== -1) {
-      result++;
+      result += 1;
     }
   });
   return result;
